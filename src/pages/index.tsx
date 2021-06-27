@@ -71,7 +71,6 @@ export default function Home() {
 
   useEffect(() => {
     fetchTodos()
-    handleSubscription()
   }, [])
 
   const dltTodo = async id => {

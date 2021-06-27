@@ -10,13 +10,13 @@ export type TodoInput = {
 
 export type Todo = {
   __typename: "Todo",
-  id?: string,
-  title?: string,
-  done?: boolean,
+  id: string,
+  title: string,
+  done: boolean,
 };
 
 export type AddTodoMutationVariables = {
-  todo?: TodoInput,
+  todo: TodoInput,
 };
 
 export type AddTodoMutation = {
@@ -29,7 +29,7 @@ export type AddTodoMutation = {
 };
 
 export type DeleteTodoMutationVariables = {
-  todoId?: string,
+  todoId: string,
 };
 
 export type DeleteTodoMutation = {
